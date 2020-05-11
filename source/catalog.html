@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Denim</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="page-header__logo">
+      <img src="https://via.placeholder.com/75x17" width="75" height="17" alt="Denim store logo">
+    </a>
+    <nav class="page-header__nav nav">
+      <ul class="nav__list">
+        <li><a href="catalog.html" class="nav__item">Woman</a></li>
+        <li><a href="#" class="nav__item">Man</a></li>
+        <li><a href="#" class="nav__item">New</a></li>
+      </ul>
+    </nav>
+    <ul class="page-header__user-buttons">
+      <li><a href="#" class="page-header__button">Search</a></li>
+      <li><a href="#" class="page-header__button">Basket</a></li>
+    </ul>
+  </header>
+
+  <main class="page-main catalog">
+    <h1 class="visually-hidden">Denim store catalog</h1>
+
+    <ul class="breadcrumbs">
+      <li><a class="breadcrumbs__link" href="">Woman</a></li>
+      <li><a class="breadcrumbs__link breadcrumbs__link--active">Jackets</a></li>
+    </ul>
+
+    <div class="catalog__filter">
+      <button class="catalog__filter-toggle" type="button">Filter by</button>
+      <!-- <h2>Filters</h2> -->
+      <form class="filters" action="https://echo.htmlacademy.ru" method="get">
+        <button type="button">Clear all</button>
+
+        <fieldset class="filters__fieldset filters__fieldset--price">
+          <legend class="filters__legend">Price</legend>
+          <button class="filters__toogle filters__toogle--price" type="button">Open</button>
+          <div class="filters__price-slider">
+
+          </div>
+        </fieldset>
+
+        <fieldset class="filters__fieldset filters__fieldset--color">
+          <legend class="filters__legend">Color</legend>
+          <button class="filters__toogle filters__toogle--color" type="button">Open</button>
+          <ul class="filters__point-list">
+            <li class="filters__point-item">
+              <input class="filters__point-checkbox filters__point-checkbox--color01" id="color01" type="checkbox"
+                name="color01" checked>
+              <label class="visually-hidden" for="color01">color01</label>
+            </li>
+            <li class="filters__point-item">
+              <input class="filters__point-checkbox filters__point-checkbox--color02" id="color02" type="checkbox"
+                name="color02">
+              <label class="visually-hidden" for="color02">color02</label>
+            </li>
+            <li class="filters__point-item">
+              <input class="filters__point-checkbox filters__point-checkbox--color03" id="color03" type="checkbox"
+                name="color03">
+              <label class="visually-hidden" for="color03">color03</label>
+            </li>
+            <li class="filters__point-item">
+              <input class="filters__point-checkbox filters__point-checkbox--color04" id="color04" type="checkbox"
+                name="color04">
+              <label class="visually-hidden" for="color04">color04</label>
+            </li>
+            <li class="filters__point-item">
+              <input class="filters__point-checkbox filters__point-checkbox--color05" id="color05" type="checkbox"
+                name="color05">
+              <label class="visually-hidden" for="color05">color05</label>
+            </li>
+            <li class="filters__point-item">
+              <input class="filters__point-checkbox filters__point-checkbox--color06" id="color06" type="checkbox"
+                name="color06">
+              <label class="visually-hidden" for="color06">color06</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="filters__fieldset filters__fieldset--collection">
+          <legend class="filters__legend">Collection</legend>
+          <button class="filters__toogle filters__toogle--collection" type="button">Open</button>
+          <ul class="filters__text-list">
+            <li class="filters__text-item">
+              <input class="visually-hidden" id="casual" type="checkbox" name="casual">
+              <label class="filters__text-label" for="casual">Casual</label>
+            </li>
+            <li class="filters__text-item">
+              <input class="visually-hidden" id="petite" type="checkbox" name="petite">
+              <label class="filters__text-label" for="petite">Petite</label>
+            </li>
+            <li class="filters__text-item">
+              <input class="visually-hidden" id="classic" type="checkbox" name="classic" checked>
+              <label class="filters__text-label" for="classic">Classic</label>
+            </li>
+            <li class="filters__text-item">
+              <input class="visually-hidden" id="soulluxe" type="checkbox" name="soulluxe">
+              <label class="filters__text-label" for="soulluxe">Soulluxe</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <button type="submit">Apply (9 products)</button>
+      </form>
+    </div>
+
+    <h2 class="visually-hidden">Jackets</h2>
+    <ul class="catalog__list">
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a blue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 40</p>
+          </article>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a cadetblue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 70</p>
+          </article>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a cadetblue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 60</p>
+          </article>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a cadetblue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 50</p>
+          </article>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a blue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 160</p>
+          </article>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a blue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 40</p>
+          </article>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a skyblue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 110</p>
+          </article>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a blue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 35</p>
+          </article>
+        </a>
+      </li>
+      <li class="catalog__item">
+        <a class="catalog__item-link" href="card.html">
+          <article class="product-item">
+            <img class="product-item__photo" src="https://via.placeholder.com/130x160" width="130" height="160" alt="Girl in a skyblue jacket DENIM">
+            <h3 class="product-item__title">Jacket</h3>
+            <p class="product-item__price">$ 85</p>
+          </article>
+        </a>
+      </li>
+    </ul>
+
+    <div class="catalog__progress load-more">
+      <div class="load-more__wrapper">
+        <p class="load-more__info">Showing 9 of 45 items</p>
+        <div class="load-more__progress">
+          <div class="load-more__bar"></div>
+        </div>
+      </div>
+      <button class="load-more__button" type="button">Load more</button>
+    </div>
+  </main>
+
+  <footer>
+    <a href="index.html" class="page-footer__logo">
+      <img src="https://via.placeholder.com/75x17" width="75" height="17" alt="Denim store logo">
+    </a>
+    <ul class="page-footer__nav footer-nav">
+      <li><a href="catalog.html" class="footer-nav__link">Shop</a></li>
+      <li><a href="#" class="footer-nav__link">Delivery</a></li>
+      <li><a href="#" class="footer-nav__link">Sitemap</a></li>
+      <li><a href="#" class="footer-nav__link">Service</a></li>
+      <li><a href="#" class="footer-nav__link">Contacts</a></li>
+    </ul>
+    <ul class="page-footer__social social">
+      <li>
+        <a href="#" class="social__link">
+          <span class="visually-hidden">Facebook</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="social__link">
+          <span class="visually-hidden">Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="social__link">
+          <span class="visually-hidden">Pinterest</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="social__link">
+          <span class="visually-hidden">Twitter</span>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
