@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Work Sans";
+  src:
+    local("WorkSans"),
+    local("WorkSans-Regular"),
+    url("../fonts/worksans-regular.woff2") format("woff2"),
+    url("../font/worksans-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src:
+    local("WorkSans Medium"),
+    local("WorkSans-Medium"),
+    url("../fonts/worksans-bold.woff2") format("woff2"),
+    url("../fonts/worksans-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anton";
+  src:
+    local("Anton"),
+    local("Anton-Regular"),
+    url("../fonts/Anton-regular.woff2") format("woff2"),
+    url("../fonts/Anton-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
