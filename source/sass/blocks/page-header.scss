@@ -1,0 +1,43 @@
+.page-header {
+  @include wrapper;
+
+  position: relative;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page-header__logo-link {
+
+}
+
+.page-header__logo-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.page-header__nav {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+
+.page-header__buttons-list {
+  @include reset-list;
+
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  column-gap: 25px;
+}
+
+.page-header__button {
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  background-color: $main-black;
+}

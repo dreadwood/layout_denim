@@ -1,0 +1,33 @@
+.bestsellers {
+  @include wrapper;
+
+  display: grid;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bestsellers__title {
+  margin-bottom: 40px;
+}
+
+.bestsellers__list {
+  @include reset-list;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
+  margin-bottom: 40px;
+}
+
+.bestsellers__item {
+
+}
+
+.bestsellers__item-link {
+
+}
+
+.bestsellers__link {
+  justify-self: center;
+}

@@ -1,0 +1,9 @@
+.page-footer {
+  padding: 50px 0 50px 0;
+
+  background-color: $main-black;
+}
+
+.page-footer__wrapper {
+  @include wrapper;
+}

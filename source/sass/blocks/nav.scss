@@ -1,0 +1,21 @@
+.nav {
+  font-family: $font-deafult;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: $main-black;
+}
+
+.nav__list {
+  @include reset-list;
+
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  column-gap: 25px;
+}
+
+.nav__item {
+  color: $main-black;
+}

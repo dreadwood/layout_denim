@@ -10,13 +10,19 @@
 
   @media (min-width: $mobile-width) {
     width: $mobile-width;
+    padding-right: $mobile-indent;
+    padding-left: $mobile-indent;
   }
 
   @media (min-width: $tablet-width) {
     width: auto;
+    padding-right: $tablet-indent;
+    padding-left: $tablet-indent;
   }
 
   @media (min-width: $desktop-width) {
     width: $desktop-width;
+    padding-right: $desktop-indent;
+    padding-left: $desktop-indent;
   }
 }

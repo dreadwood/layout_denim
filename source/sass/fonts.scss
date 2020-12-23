@@ -15,6 +15,18 @@
   src:
     local("WorkSans Medium"),
     local("WorkSans-Medium"),
+    url("../fonts/worksans-medium.woff2") format("woff2"),
+    url("../fonts/worksans-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src:
+    local("WorkSans Bold"),
+    local("WorkSans-Bold"),
     url("../fonts/worksans-bold.woff2") format("woff2"),
     url("../fonts/worksans-bold.woff") format("woff");
   font-weight: 700;

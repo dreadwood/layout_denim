@@ -1,8 +1,13 @@
 $font-deafult: "Work Sans", "Trebuchet MS", sans-serif;
+$font-title: "Anton", "Trebuchet MS", sans-serif;
 
 $mobile-width: 320px;
 $tablet-width: 768px;
 $desktop-width: 1230px;
+
+$mobile-indent: 15px;
+$tablet-indent: 45px;
+$desktop-indent: 30px;
 
 $mobile-width-only: 767px;
 $tablet-width-only: 1229px;
@@ -13,6 +18,7 @@ $retina-dppx: 1.5dppx;
 
 $main-black: #151C22;
 $main-gray: #727A82;
+$bg-gray: #F1F2F4;
 
 $textile-color01: #B0C3C7;
 $textile-color02: #3B6392;

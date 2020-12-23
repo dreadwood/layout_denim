@@ -1,0 +1,15 @@
+.footer-nav {
+  @include reset-list;
+
+  color: $white;
+}
+
+.footer-nav__link {
+  font-family: $font-deafult;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: $white;
+}

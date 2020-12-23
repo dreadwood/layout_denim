@@ -1,0 +1,9 @@
+.categories {
+
+}
+
+.categories__list {
+  @include reset-list;
+
+  column-count: 2;
+}

@@ -1,0 +1,52 @@
+.ad {
+  padding: 15px 15px 0 15px;
+
+  background-image: repeating-linear-gradient(
+    135deg,
+    $white,
+    $white 15px,
+    $main-black 15px,
+    $main-black 17px
+  );
+}
+
+.ad__info {
+  display: grid;
+  justify-content: center;
+  padding: 40px 36px 40px 36px;
+
+  background-color: $bg-gray;
+}
+
+.ad__title {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-family: $font-deafult;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: $main-gray;
+}
+
+.ad__title-bold {
+  display: block;
+
+  font-size: 26px;
+  line-height: 30px;
+  color: $main-black;
+}
+
+.ad__button {
+  width: 148px;
+  justify-self: center;
+}
+
+.ad__img {
+  width: 230px;
+  height: 226px;
+
+  background-image: url("https://via.placeholder.com/230x226");
+}

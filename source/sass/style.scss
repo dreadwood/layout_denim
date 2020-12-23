@@ -4,9 +4,19 @@
 @import "visually-hidden.scss";
 @import "global.scss";
 
-// @import "blocks/banner.scss";
-// @import "blocks/button.scss";
-// @import "blocks/catalog.scss";
-// @import "blocks/page-header.scss";
+@import "blocks/button.scss";
+@import "blocks/title.scss";
+@import "blocks/link.scss";
+
+@import "blocks/page-header.scss";
+@import "blocks/nav.scss";
+
 // @import "blocks/page-main.scss";
-// @import "blocks/page-footer.scss";
+@import "blocks/banner.scss";
+@import "blocks/bestsellers.scss";
+@import "blocks/ad.scss";
+@import "blocks/product-item.scss";
+@import "blocks/categories.scss";
+
+@import "blocks/page-footer.scss";
+@import "blocks/footer-nav.scss";
